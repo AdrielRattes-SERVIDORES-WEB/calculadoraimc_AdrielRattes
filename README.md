@@ -1,0 +1,3 @@
+GRADLE COM GITHUB ACTIONS SEM INSTALAR ANDROID STUDIO
+
+https://github.com/AdrielRattes-SERVIDORES-WEB/CalculadoraIMC/actions/runs/33812998039
