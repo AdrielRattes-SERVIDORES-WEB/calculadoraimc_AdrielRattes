@@ -1,1 +1,26 @@
-*https://github.com/AdrielRattes-SERVIDORES-WEB/CalculadoraIMC/actions/runs/33812998039*
+https://github.com/AdrielRattes-SERVIDORES-WEB/CalculadoraIMC/actions/runs/33812998039
+
+GitHub Actions — passo a passo manual
+
+1. Extrai o zip do projeto, mantendo a estrutura de pastas (inclusive a pasta oculta .github).
+2. Cria o repositório em github.com → botão verde New → dá um nome → Create repository.
+3. Sobe os arquivos. Na tela do repo vazio, clica em uploading an existing file e arrasta tudo (Explorer não mostra .github por ser oculta — use o terminal se preferir):
+cd pasta-do-projeto
+git init
+git add .
+git commit -m "primeiro commit"
+git branch -M main
+git remote add origin https://github.com/SEU_USUARIO/NOME_DO_REPO.git
+git push -u origin main
+4. Vai na aba Actions do repositório — o workflow "Build APK" começa sozinho.
+5. Espera ficar verde ✅ (3-8 min).
+6. Clica na execução (nome do commit) → desce até Artifacts → baixa app-debug (vem em .zip; dentro está o .apk).
+
+Abrir o .apk no celular
+
+1. Extrai o .zip baixado — dentro tem o app-debug.apk.
+2. Manda esse .apk pro celular (Drive, WhatsApp Web pra você mesmo, ou cabo USB).
+3. Abre o arquivo no celular.
+4. Se aparecer "app bloqueado para proteger seu dispositivo" → toca em Mais detalhes → Instalar mesmo assim.
+   - Se não aparecer essa opção: Play Store → seu perfil → Play Protect → ⚙️ → desliga "Verificar apps com o Play Protect", instala, e reativa depois.
+5. Confirma a instalação e abre.
